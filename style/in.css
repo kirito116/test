@@ -1,0 +1,83 @@
+.window {
+  height: 600px;
+  width: 600px;
+  margin: 0px 110px 30px 30px;
+}
+
+.first_line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prise {
+  background: #f68d00;
+  color: #fff; /* Цвет текста */
+  padding: 20px 10px 15px 10px; /* Поля вокруг текста */
+  border-radius: 25px;
+  height: 40px;
+  width: 200px;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 750px;
+  right: 0px;
+  top: 480px;
+  bottom: 0px;
+  font-size: 50px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.contento {
+  flex: 1 0 auto;
+}
+
+/*оплата*/
+.wait {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+.waito {
+  display: block;
+}
+#id_clock {
+  font-size: 32px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.proper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 725px;
+  right: 0px;
+  top: 250px;
+  bottom: 0px;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.name {
+  margin-left: 100px;
+}
+
+.harak {
+  font-size: 40px;
+}

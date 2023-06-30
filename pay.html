@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/in.css">
+    <script>
+        function digitalClock() {
+         var date = new Date();
+         var hours = date.getHours();
+         var minutes = date.getMinutes();
+         var seconds = date.getSeconds();
+            //* добавление ведущих нулей */
+           if (hours < 10) hours = "0" + hours;
+           if (minutes < 10) minutes = "0" + minutes;
+           if (seconds < 10) seconds = "0" + seconds;
+             document.getElementById("id_clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+             setTimeout("digitalClock()", 1000);
+        }
+       </script>
+</head>
+<body>
+    <div class="box">
+        <h1 class="waito"><a href="index.html" class="wait">Будущая стараница оплаты</a></h1>
+        
+        <div id="id_clock" class="clock"></div>
+    
+    </div>
+    <script>digitalClock();</script>
+</body>
+</html>
